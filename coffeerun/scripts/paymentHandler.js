@@ -9,6 +9,7 @@
   formHandler.addSubmitHandler(function (data) {
     var description = data.title + ' ';
     description += data.username;
-    $("#Message").append(description).modal();
+    $("#user").text(description);
+    $("#Message").modal();
   });
 })(window);
