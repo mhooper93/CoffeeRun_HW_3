@@ -4,7 +4,7 @@
   var App = window.App || {};
   var $ = window.jQuery;
 
-  // contructor
+  
   function FormHandler(selector) {
     if (!selector) {
       throw new Error('No selector provided');
